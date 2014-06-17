@@ -8,7 +8,7 @@ module Gemtranslatetoenglish
                 return ""
             end
 
-            if phrase.empth?
+            if phrase.empty?
                 return ""
             end
 
