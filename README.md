@@ -37,3 +37,10 @@ TODO: Write usage instructions here
 http://imasters.com.br/artigo/23464/ruby-on-rails/criando-suas-proprias-gems/
 http://railscasts.com/episodes/135-making-a-gem
 http://railscasts.com/episodes/245-new-gem-with-bundler
+
+2. How to test:
+
+Using irb
+
+    > require 'gemtranslatetoenglish'
+    > Gemtranslatetoenglish::Translatetoenglish.new.translate("Oi")
