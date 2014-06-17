@@ -14,7 +14,9 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install gemtranslatetoenglish
+    $ git clone https://github.com/toshikomura/gemtranslatetoenglish.git
+    $ gem build gemtranslatetoenglish.gemspec
+    $ gem install gemtranslatetoenglish-(version)
 
 ## Usage
 
@@ -27,3 +29,11 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Development
+
+1. Links:
+
+http://imasters.com.br/artigo/23464/ruby-on-rails/criando-suas-proprias-gems/
+http://railscasts.com/episodes/135-making-a-gem
+http://railscasts.com/episodes/245-new-gem-with-bundler
