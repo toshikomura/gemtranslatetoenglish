@@ -25,7 +25,7 @@ module Gemtranslatetoenglish
                     when "MUNDO"
                         result = result + "WORLD"
                     else result
-                        "- (#{word}) NÃO PODE SER TRADUZIDO -"
+                        "- (#{word}) NAO PODE SER TRADUZIDO -"
                 end
 
                 # If isn´t in the end of phrase
