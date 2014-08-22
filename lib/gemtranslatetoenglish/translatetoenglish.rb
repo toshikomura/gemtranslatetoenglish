@@ -2,7 +2,7 @@ module Gemtranslatetoenglish
     module Helpers
         module Translatetoenglish
 
-            def translate( phrase)
+            def self.translate( phrase)
 
                 # Check if phrase has something
                 if phrase == nil
