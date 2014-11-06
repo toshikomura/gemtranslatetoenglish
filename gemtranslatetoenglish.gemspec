@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Gemtranslatetoenglish::VERSION
   spec.authors       = ["Gustavo Toshi Komura"]
   spec.email         = ["gtk10@c3sl.ufpr.br"]
-  spec.summary       = %q{Gema para traduzir português para inglês.}
-  spec.description   = %q{Gema que recebe um texto em português e retorna um texto em inglês.}
+  spec.summary       = %q{Gema para traduzir portugues para ingles.}
+  spec.description   = %q{Gema que recebe um texto em portugues e retorna um texto em ingles.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

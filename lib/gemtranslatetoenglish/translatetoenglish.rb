@@ -29,7 +29,7 @@ module Gemtranslatetoenglish
                             "- (#{word}) NAO PODE SER TRADUZIDO -"
                     end
 
-                    # If isn´t in the end of phrase
+                    # If is not in the end of phrase
                     if i < phrase.length
                         result = result + " "
                         i = i + 1
