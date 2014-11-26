@@ -21,7 +21,7 @@ module Gemtranslatetoenglish
 
                     word = word.upcase
                     case word
-                        when "OI"
+                        when "OIÁ"
                             result = result + "HELLO"
                         when "MUNDO"
                             result = result + "WORLD"
