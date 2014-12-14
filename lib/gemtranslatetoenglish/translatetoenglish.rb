@@ -1,3 +1,4 @@
+# coding: utf-8
 module Gemtranslatetoenglish
     module Helpers
         module Translatetoenglish
@@ -21,7 +22,9 @@ module Gemtranslatetoenglish
 
                     word = word.upcase
                     case word
-                        when "OIÁ"
+                        when "OLÁ"
+                            result = result + "HELLO"
+                        when "OLá"
                             result = result + "HELLO"
                         when "MUNDO"
                             result = result + "WORLD"
